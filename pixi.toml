@@ -1,0 +1,19 @@
+[project]
+name = "ChirpPy"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["richardsheridan <richard.sheridan@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[tasks]
+
+[dependencies]
+jupyter = ">=1.0.0,<1.1"
+matplotlib-base = ">=3.8.3,<3.9"
+scikit-learn = ">=1.4.1.post1,<1.4.2"
+xlrd = ">=2.0.1,<2.1"
+pyarrow = ">=15.0.2,<15.1"
+pandas = ">=2.2.1,<2.3"
+ipympl = ">=0.9.3,<0.10"
+tqdm = ">=4.66.2,<4.67"
